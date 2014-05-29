@@ -1,0 +1,177 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  12460   812 ?        Ss   19:33   0:01 init [5]  
+root         2  0.0  0.0      0     0 ?        S    19:33   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/u:0]
+root         6  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/1]
+root         9  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/1:0]
+root        10  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/1]
+root        11  0.0  0.0      0     0 ?        S    19:33   0:01 [kworker/0:1]
+root        12  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/2]
+root        14  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/2:0]
+root        15  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/2]
+root        16  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/3]
+root        18  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/3:0]
+root        19  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/3]
+root        20  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/3]
+root        21  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/4]
+root        23  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/4]
+root        24  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/4]
+root        25  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/5]
+root        26  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/5:0]
+root        27  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/5]
+root        28  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/5]
+root        29  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/6]
+root        30  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/6:0]
+root        31  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/6]
+root        32  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/6]
+root        33  0.0  0.0      0     0 ?        S    19:33   0:00 [migration/7]
+root        34  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/7:0]
+root        35  0.0  0.0      0     0 ?        S    19:33   0:00 [ksoftirqd/7]
+root        36  0.0  0.0      0     0 ?        S    19:33   0:00 [watchdog/7]
+root        37  0.0  0.0      0     0 ?        S<   19:33   0:00 [cpuset]
+root        38  0.0  0.0      0     0 ?        S<   19:33   0:00 [khelper]
+root        39  0.0  0.0      0     0 ?        S<   19:33   0:00 [netns]
+root        40  0.0  0.0      0     0 ?        S    19:33   0:00 [sync_supers]
+root        41  0.0  0.0      0     0 ?        S    19:33   0:00 [bdi-default]
+root        42  0.0  0.0      0     0 ?        S<   19:33   0:00 [kintegrityd]
+root        43  0.0  0.0      0     0 ?        S<   19:33   0:00 [kblockd]
+root        44  0.0  0.0      0     0 ?        S<   19:33   0:00 [kacpid]
+root        45  0.0  0.0      0     0 ?        S<   19:33   0:00 [kacpi_notify]
+root        46  0.0  0.0      0     0 ?        S<   19:33   0:00 [kacpi_hotplug]
+root        47  0.0  0.0      0     0 ?        S<   19:33   0:00 [ata_sff]
+root        48  0.0  0.0      0     0 ?        S    19:33   0:00 [kseriod]
+root        49  0.0  0.0      0     0 ?        S<   19:33   0:00 [md]
+root        50  0.0  0.0      0     0 ?        S<   19:33   0:00 [kondemand]
+root        51  0.0  0.0      0     0 ?        S    19:33   0:00 [khungtaskd]
+root        52  0.0  0.0      0     0 ?        S    19:33   0:00 [kswapd0]
+root        53  0.0  0.0      0     0 ?        SN   19:33   0:00 [ksmd]
+root        54  0.0  0.0      0     0 ?        S    19:33   0:00 [fsnotify_mark]
+root        55  0.0  0.0      0     0 ?        S<   19:33   0:00 [aio]
+root        56  0.0  0.0      0     0 ?        S<   19:33   0:00 [crypto]
+root        60  0.0  0.0      0     0 ?        S<   19:33   0:00 [kthrotld]
+root        61  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/2:1]
+root        62  0.0  0.0      0     0 ?        S    19:33   0:00 [scsi_eh_0]
+root        63  0.0  0.0      0     0 ?        S    19:33   0:00 [scsi_eh_1]
+root        64  0.0  0.0      0     0 ?        S    19:33   0:00 [scsi_eh_2]
+root        65  0.0  0.0      0     0 ?        S    19:33   0:00 [scsi_eh_3]
+root        66  0.0  0.0      0     0 ?        S    19:33   0:00 [scsi_eh_4]
+root        67  0.0  0.0      0     0 ?        S    19:33   0:00 [scsi_eh_5]
+root        72  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/u:5]
+root        74  0.0  0.0      0     0 ?        S<   19:33   0:00 [kpsmoused]
+root        75  0.0  0.0      0     0 ?        S<   19:33   0:00 [ceph-msgr]
+root        76  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/5:1]
+root        77  0.0  0.0      0     0 ?        S    19:33   0:01 [kworker/1:1]
+root        78  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/3:1]
+root        79  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/4:1]
+root       104  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/6:1]
+root       106  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/7:1]
+root       197  0.0  0.0      0     0 ?        S    19:33   0:00 [khubd]
+root       216  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/0:2]
+root       219  0.0  0.0      0     0 ?        S<   19:33   0:00 [usbhid_resumer]
+root       297  0.0  0.0      0     0 ?        S    19:33   0:00 [kjournald]
+root       303  0.0  0.0      0     0 ?        S    19:33   0:00 [flush-8:0]
+root       392  0.0  0.0  52020  1444 ?        S<s  19:33   0:00 /sbin/udevd --daemon
+root       441  0.0  0.0  52132  1532 ?        S<   19:33   0:00 /sbin/udevd --daemon
+root       545  0.0  0.0      0     0 ?        S<   19:33   0:00 [hd-audio0]
+root       604  0.0  0.0      0     0 ?        S    19:33   0:00 [kworker/4:2]
+root       627  0.0  0.0      0     0 ?        S<   19:33   0:00 [kstriped]
+root      1073  0.0  0.0   3980   636 ?        Ss   19:33   0:00 /sbin/acpid
+root      1097  0.0  0.0      0     0 ?        S<   19:33   0:00 [kconservative]
+root      1123  0.0  0.0  15604   668 ?        Ss   19:33   0:00 /usr/sbin/irqbalance
+101       1158  0.0  0.0  63272  2688 ?        Ss   19:33   0:02 /bin/dbus-daemon --system
+root      2028  0.0  0.0   9876  3436 ?        S    19:33   0:00 /sbin/dhclient6 -6 -cf /var/lib/dhcp6/dhclient6.eth0.conf -lf /var/lib/dhcp6/dhclient6.eth0.lease -pf /var/run/dhclient6.eth0.pid -q eth0
+root      2564  0.0  0.0   8260   128 ?        Ss   19:33   0:00 /sbin/dhcpcd --netconfig -L -E -c /etc/sysconfig/network/scripts/dhcpcd-hook -t 0 -h linux-labs eth0
+root      3555  0.0  0.0  58632  1352 ?        Ss   19:33   0:00 /usr/sbin/sshd -o PidFile=/var/run/sshd.init.pid
+avahi     3665  0.0  0.0  64804  2924 ?        S    19:33   0:00 avahi-daemon: running [linux-labs.local]
+root      3740  0.0  0.0 128176  1372 ?        Sl   19:33   0:00 /sbin/rsyslogd -c 5 -f /etc/rsyslog.conf
+root      3766  0.0  0.0  21056   584 ?        S<sl 19:33   0:00 /sbin/auditd -s disable
+root      3769  0.0  0.0      0     0 ?        S    19:33   0:00 [kauditd]
+root      3823  0.0  0.0  16716   940 ?        Ss   19:33   0:00 /sbin/rpcbind
+root      3840  0.0  0.0  28716   740 ?        Ss   19:33   0:00 /usr/bin/kdm
+root      3846  0.0  0.0   3968   240 ?        Ss   19:33   0:00 /usr/sbin/nscd
+root      3893  0.0  0.0  52016  1380 ?        S<   19:33   0:00 /sbin/udevd --daemon
+root      3895 13.8  0.4 163976 36308 tty7     Ss+  19:33   9:15 /usr/bin/Xorg -br :0 vt7 -nolisten tcp -auth /var/lib/xdm/authdir/authfiles/A:0-3Djgdc
+root      3957  0.0  0.0  53500  2820 ?        Ss   19:33   0:00 /usr/lib/postfix/master
+root      4039  0.0  0.0  13388   976 ?        Ss   19:33   0:00 /usr/sbin/cron
+postfix   4058  0.0  0.0  20532  1340 ?        S    19:33   0:00 pickup -l -t fifo -u
+postfix   4059  0.0  0.0  20788  1880 ?        S    19:33   0:00 qmgr -l -t fifo -u
+root      4060  0.0  0.0 105876  3976 ?        S    19:33   0:00 -:0         
+root      4073  0.0  0.0  18604  1096 ?        S    19:33   0:00 /usr/sbin/smartd
+root      4200  0.0  0.0   4240   776 tty1     Ss+  19:33   0:00 /sbin/mingetty --noclear tty1
+root      4201  0.0  0.0   4240   780 tty2     Ss+  19:33   0:00 /sbin/mingetty tty2
+root      4202  0.0  0.0   4240   776 tty3     Ss+  19:33   0:00 /sbin/mingetty tty3
+root      4203  0.0  0.0   4240   780 tty4     Ss+  19:33   0:00 /sbin/mingetty tty4
+root      4204  0.0  0.0   4240   776 tty5     Ss+  19:33   0:00 /sbin/mingetty tty5
+root      4205  0.0  0.0   4240   780 tty6     Ss+  19:33   0:00 /sbin/mingetty tty6
+root      5285  0.0  0.0 124876  3668 ?        Sl   19:34   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      5354  0.0  0.0 148592  5436 ?        Sl   19:34   0:00 /usr/lib/polkit-1/polkitd
+MBJUNIOR  5366  0.0  0.0  12836  1720 ?        Ss   19:34   0:00 /bin/sh /usr/bin/startkde
+MBJUNIOR  5491  0.0  0.0  15764   832 ?        S    19:34   0:00 dbus-launch --sh-syntax --exit-with-session
+MBJUNIOR  5492  0.0  0.0  20880  1984 ?        Ss   19:34   0:00 /bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+root      5499  0.0  0.0   3812    80 ?        S    19:34   0:00 /usr/lib64/kde4/libexec/start_kdeinit +kcminit_startup
+MBJUNIOR  5500  0.0  0.2 273620 20624 ?        Ss   19:34   0:00 kdeinit4: kdeinit4 Running...                  
+MBJUNIOR  5501  0.0  0.1 280100 11260 ?        S    19:34   0:00 kdeinit4: klauncher [kdeinit] --fd=9           
+MBJUNIOR  5503  0.0  0.3 687240 27188 ?        Sl   19:34   0:00 kdeinit4: kded4 [kdeinit]                      
+MBJUNIOR  5510  0.0  0.1 267192 14588 ?        S    19:34   0:00 /usr/bin/bluedevil-monolithic
+MBJUNIOR  5511  0.0  0.2 379440 17920 ?        S    19:34   0:00 kdeinit4: kglobalaccel [kdeinit]               
+MBJUNIOR  5513  0.0  0.2 381108 16696 ?        S    19:34   0:00 kdeinit4: kwalletd [kdeinit]                   
+root      5515  0.0  0.0 142656  4024 ?        Sl   19:34   0:00 /usr/lib/upower/upowerd
+MBJUNIOR  5518  0.0  0.0   3948   296 ?        S    19:34   0:00 kwrapper4 ksmserver
+MBJUNIOR  5521  0.0  0.2 455236 17904 ?        Sl   19:34   0:00 kdeinit4: ksmserver [kdeinit]                  
+MBJUNIOR  5554  1.1  0.5 512200 46892 ?        Sl   19:34   0:45 kwin -session 10146109dad6000139345395700000056990000_1400719867_374904
+root      5561  0.0  0.0 127380  3784 ?        Sl   19:34   0:00 /usr/lib/udisks/udisks-daemon
+root      5562  0.0  0.0  45012   788 ?        S    19:34   0:00 udisks-daemon: polling /dev/sr0
+MBJUNIOR  5571  0.0  0.2 266644 17284 ?        S    19:34   0:00 /usr/bin/kactivitymanagerd
+MBJUNIOR  5575  1.8  0.3 705816 28224 ?        Rl   19:34   1:14 /usr/bin/knotify4
+MBJUNIOR  5578  0.1  0.6 711128 55868 ?        Sl   19:34   0:06 kdeinit4: plasma-desktop [kdeinit]             
+MBJUNIOR  5584  0.0  0.1 224140 12776 ?        S    19:34   0:00 /usr/bin/kuiserver
+MBJUNIOR  5595  0.0  0.0   8820  1100 ?        S    19:34   0:00 ksysguardd
+MBJUNIOR  5613  0.0  0.2 376736 16744 ?        S    19:34   0:00 kdeinit4: kaccess [kdeinit]                    
+MBJUNIOR  5623  0.0  0.4 629292 35256 ?        Sl   19:34   0:00 kdeinit4: krunner [kdeinit]                    
+MBJUNIOR  5628  0.0  0.1 353772 10964 ?        Sl   19:34   0:00 kdeinit4: nepomukserver [kdeinit]              
+MBJUNIOR  5632  0.0  0.3 466896 26644 ?        SNl  19:34   0:00 /usr/bin/nepomukservicestub nepomukstorage
+MBJUNIOR  5635  0.0  0.0 121904  4656 ?        Sl   19:34   0:00 /usr/bin/akonadi_control
+MBJUNIOR  5637  0.0  0.1 335800  8664 ?        Sl   19:34   0:00 akonadiserver
+MBJUNIOR  5639  0.0  0.3 224980 29160 ?        Sl   19:34   0:00 /usr/sbin/mysqld --defaults-file=/home/MBJUNIOR/.local/share/akonadi//mysql.conf --datadir=/home/MBJUNIOR/.local/share/akonadi/db_data/ --socket=/home/MBJUNIOR/.local/share/akonadi/socket-linux-labs/mysql.socket
+MBJUNIOR  5663  0.0  0.3 608292 24980 ?        Sl   19:34   0:00 kdeinit4: kmix [kdeinit] -session 10146109dad6000139345396800000056990012_1400719867_332573
+MBJUNIOR  5670  0.0  0.2 356404 17372 ?        Sl   19:34   0:00 /usr/lib64/kde4/libexec/polkit-kde-authentication-agent-1
+MBJUNIOR  5672  0.0  0.2 378848 18072 ?        S    19:34   0:00 kdeinit4: klipper [kdeinit]                    
+MBJUNIOR  5677  0.0  0.0 345080  7992 ?        Ssl  19:34   0:00 /usr/bin/pulseaudio --start
+rtkit     5680  0.0  0.0  94560  1096 ?        SNl  19:34   0:00 /usr/lib/rtkit/rtkit-daemon
+MBJUNIOR  5691  8.8  5.5 1267200 445072 ?      Sl   19:34   5:52 /usr/lib64/firefox/firefox
+MBJUNIOR  5701  0.0  0.2 280036 20776 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_0
+MBJUNIOR  5702  0.0  0.2 280036 20768 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_1
+MBJUNIOR  5703  0.0  0.2 280492 21176 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_2
+MBJUNIOR  5704  0.0  0.2 280036 20768 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_3
+MBJUNIOR  5705  0.0  0.2 280036 20772 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_4
+MBJUNIOR  5706  0.0  0.2 280032 20772 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_5
+MBJUNIOR  5707  0.0  0.2 280036 20772 ?        S    19:34   0:00 /usr/bin/akonadi_contacts_resource --identifier akonadi_contacts_resource_6
+MBJUNIOR  5708  0.0  0.2 298924 21668 ?        S    19:34   0:00 /usr/bin/akonadi_ical_resource --identifier akonadi_ical_resource_0
+MBJUNIOR  5709  0.0  0.2 286416 20736 ?        S    19:34   0:00 /usr/bin/akonadi_maildir_resource --identifier akonadi_maildir_resource_0
+MBJUNIOR  5710  0.0  0.2 282692 21340 ?        S    19:34   0:00 /usr/bin/akonadi_maildispatcher_agent --identifier akonadi_maildispatcher_agent
+MBJUNIOR  5712  0.0  0.2 277960 21032 ?        S    19:34   0:00 /usr/bin/akonadi_nepomuk_contact_feeder --identifier akonadi_nepomuk_contact_feeder
+MBJUNIOR  5783  0.0  0.0  40180  2356 ?        S    19:34   0:00 /usr/lib/gvfs/gvfsd
+MBJUNIOR  5791  0.0  0.0  88544  3212 ?        Ssl  19:34   0:00 /usr/lib/gvfs//gvfs-fuse-daemon /home/MBJUNIOR/.gvfs
+MBJUNIOR  5801  0.0  0.0  45124  3112 ?        S    19:34   0:00 /usr/lib/GConf/2/gconfd-2
+MBJUNIOR  5805  0.0  0.4  58876 35268 ?        SNl  19:34   0:01 /usr/bin/virtuoso-t +foreground +configfile /tmp/virtuoso_XM5632.ini +wait
+MBJUNIOR  5819  0.0  0.2 345116 21000 ?        Sl   19:34   0:00 /usr/lib/mozilla/kmozillahelper
+MBJUNIOR  5867  0.0  0.2 401292 21196 ?        SNl  19:34   0:00 /usr/bin/nepomukservicestub nepomukbackupsync
+MBJUNIOR  5870  0.0  0.2 352984 20324 ?        SNl  19:34   0:00 /usr/bin/nepomukservicestub nepomukfilewatch
+MBJUNIOR  5871  0.0  0.2 266312 18944 ?        SN   19:34   0:00 /usr/bin/nepomukservicestub nepomukqueryservice
+MBJUNIOR  5872  0.0  0.2 340316 20328 ?        SNl  19:34   0:00 /usr/bin/nepomukservicestub nepomukremovablestorageservice
+MBJUNIOR  5899  0.5  0.7 423084 56780 ?        Sl   19:34   0:20 /usr/lib64/firefox/plugin-container /usr/lib64/browser-plugins/libflashplayer.so -greomni /usr/lib64/firefox/omni.ja 5691 true plugin
+MBJUNIOR  6074  0.1  0.3 407084 31032 ?        Sl   19:39   0:05 /usr/bin/dolphin --select /home/MBJUNIOR/Downloads/logisim-generic-2.7.1.jar
+MBJUNIOR  6084  0.0  0.3 390344 24308 ?        Rl   19:39   0:01 /usr/bin/konsole --workdir /home/MBJUNIOR/Downloads
+MBJUNIOR  6086  0.0  0.0  14408  3504 pts/1    Ss+  19:39   0:00 /bin/bash
+MBJUNIOR  6159  0.0  0.1 270164 15060 ?        S    19:40   0:00 /usr/lib64/kde4/libexec/kpackagekitsmarticon
+MBJUNIOR  6822  0.0  0.0  14408  3468 pts/2    Ss   20:11   0:00 /bin/bash
+MBJUNIOR  7448  0.0  0.1 276280  9044 ?        S    20:38   0:00 kdeinit4: kio_file [kdeinit] file local:/tmp/ksocket-MBJUNIOR/klauncherMT5501.slave-socket local:/tmp/ksocket-MBJUNIOR/dolphinJh6074.slave-socket
+MBJUNIOR  7456  0.7  0.4 489844 33520 ?        Rl   20:38   0:00 kdeinit4: kwrite [kdeinit] /home/MBJUNIOR/Downloads/teste.txt
+MBJUNIOR  7546 10.3  0.6 125984 52084 ?        Sl   20:40   0:00 /usr/lib/Adobe/Reader9/Reader/intellinux/bin/acroread /home/MBJUNIOR/Downloads/2014521_215440_Trab2_TGB.pdf
+root      7606  0.1  0.1 220328  9780 ?        Sl   20:40   0:00 /usr/lib/packagekitd
+MBJUNIOR  7610  0.0  0.0   4684   952 pts/2    R+   20:40   0:00 ps -aux
