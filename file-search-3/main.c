@@ -28,10 +28,34 @@ typedef struct process {
   char content[1000];
   
 } process;
- 
-process G_Process[MAX_PROCESS];
 
-int G_Index = 0;
+ 
+typedef struct sr {
+   process p;
+} sr;
+
+process G_Process[MAX_PROCESS];
+sr GSR[MAX_PROCESS];
+ 
+int GSR_B = 0; 
+int GSR_E = 0; 
+
+ 
+
+int GP_Index = 0;
+
+
+void srInsert(process p) {
+
+  GSR[GSR_E++].p = p;
+  //printf("Inserting: %i - %i\n",GSR_B, GSR_E);
+
+}
+void srRemove(){
+  free(&GSR[GSR_B++]);
+  //printf("Removing: %i - %i\n",GSR_B, GSR_E);
+}
+
 
 #ifdef __unix__
 void getch(){
@@ -53,6 +77,7 @@ void loadFromFile () {
   fgets(_lineBuffer, 1000, f);
   while (fgets(_lineBuffer, 1000, f) != NULL){ 
     char *dirty = _lineBuffer;
+
     int i = 0;
     char *_buffer;
     
@@ -68,13 +93,14 @@ void loadFromFile () {
         _buffer = strtok (NULL, LINE_DELIMITER);
       }
       
-      fflush(f); 
+
       G_Process[j].line = j;
       strcpy( G_Process[j].user, _array[0] ); 
-      j++;                         
+      j++;     
+          
     }
    };
-   G_Index = j;
+   GP_Index = j;
    fclose(f);
 }
  
@@ -88,20 +114,27 @@ void search(){
      fflush(stdin);
      printf("\n ------------ Search Results:  -------------\n");
      
-     for (i=0; i < G_Index; i++){    
-         char *tp;
-         tp = strstr(G_Process[i].user, buffer);
-         if (tp) {
-	   printf("%s",G_Process[i].content);
-	   j++;
-	 }
+     for (i=0; i < GP_Index; i++){    
+        char *tp;
+        tp = strstr(G_Process[i].user, buffer);
+        if (tp) {
+           srInsert(G_Process[i]);
+           j++;
+        }  
      }
-     (j == 0) ? printf("\nSorry, nothing found !") : getch(); 
+     if (j == 0)  printf("\nSorry, nothing found !");
 }
  
   
 int main () {
   loadFromFile();
   search();
+  
+  int i = GSR_B;
+  for (i = GSR_B; i < GSR_E; i++){
+    printf("%s\n",GSR[i].p.content);
+    srRemove();
+  }
+  getch();
   return 0;
 }
