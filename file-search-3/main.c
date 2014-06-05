@@ -43,15 +43,11 @@ int GSR_E = 0;
 int GP_Index = 0;
 
 void srInsert(process p) {
-
   GSR[GSR_E++].p = p;
-  //printf("Inserting: %i - %i\n",GSR_B, GSR_E);
-
 }
+
 void srRemove(){
-  //unset(&GSR[GSR_B++]);
   GSR_B++;
-  //printf("Removing: %i - %i\n",GSR_B, GSR_E);
 }
 
 
