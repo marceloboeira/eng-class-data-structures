@@ -23,7 +23,7 @@ void add(char v) {
 }
 char delete()  {
  if (sep->next == NULL){
-   return 27;
+   return 0;
  }
  else {
    struct stack *new = (struct stack *) malloc(sizeof(struct stack));
@@ -35,7 +35,7 @@ char delete()  {
 }
 int check(char c) {
 char s;
-  if (( c == '{')||( c == '[')||(c == '(')) {
+  if ((c == '{')||(c == '[')||(c == '(')) {
     add(c);
   }
   else if ((c == '}')||(c == ']')||(c == ')')) {
